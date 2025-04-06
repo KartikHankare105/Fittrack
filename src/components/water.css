@@ -1,0 +1,62 @@
+.water-calculator-container {
+  max-width: 400px;
+  margin: auto;
+  margin-top: 2rem;
+  padding: 2rem;
+  border-radius: 12px;
+  background-color: var(--card-bg);
+  color: var(--text-color);
+  box-shadow: 0 0 10px rgba(0,0,0,0.15);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.water-input,
+.water-select {
+  width: 100%;
+  padding: 12px;
+  margin-top: 1rem;
+  border: 1px solid var(--input-border);
+  border-radius: 8px;
+  background-color: var(--input-bg);
+  color: var(--text-color);
+  transition: all 0.3s ease;
+}
+
+.water-btn {
+  width: 100%;
+  padding: 12px;
+  margin-top: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.water-btn:hover {
+  background-color: #0056b3;
+}
+
+.result-text {
+  margin-top: 1.5rem;
+  font-size: 1rem;
+  text-align: center;
+  color: var(--text-color);
+}
+
+/* 🌞 Light mode variables */
+body:not(.dark) {
+  --card-bg: #ffffff;
+  --input-bg: #f0f0f0;
+  --text-color: #1c1c1c;
+  --input-border: #ccc;
+}
+
+/* 🌙 Dark mode variables */
+body.dark {
+  --card-bg: #1e1e1e;
+  --input-bg: #2a2a2a;
+  --text-color: #ffffff;
+  --input-border: #444;
+}

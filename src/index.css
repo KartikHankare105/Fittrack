@@ -1,0 +1,37 @@
+:root{
+  --body_background:white;
+  --body_color:black;
+  --link_color:navy;
+}
+ 
+[data-theme="dark"] {
+  --body_background:#282c34;
+  --body_color:white;
+  --link_color:cyan
+}
+ 
+*
+{
+  transition: all 0.3s ease-in-out;
+}
+ 
+/* Light Theme (default) */
+body {
+  background-color: #ffffff;
+  color: #000000;
+  transition: all 0.3s ease;
+}
+
+/* Dark Theme */
+body[data-theme="dark"] {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+/* Optional: Update input and button styles */
+body[data-theme="dark"] input,
+body[data-theme="dark"] button {
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #666;
+}
