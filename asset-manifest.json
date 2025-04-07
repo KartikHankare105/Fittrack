@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/fittrack/static/css/main.504d99f2.css",
-    "main.js": "/fittrack/static/js/main.b6765f3c.js",
+    "main.js": "/fittrack/static/js/main.993d6475.js",
     "static/js/453.4d04c3e6.chunk.js": "/fittrack/static/js/453.4d04c3e6.chunk.js",
     "static/media/Sun.svg": "/fittrack/static/media/Sun.681607dcda2a01539a9a8a157ae74e6e.svg",
     "index.html": "/fittrack/index.html",
     "static/media/Moon.svg": "/fittrack/static/media/Moon.0a6a2b75ac51157455302ddcfca385c0.svg",
     "main.504d99f2.css.map": "/fittrack/static/css/main.504d99f2.css.map",
-    "main.b6765f3c.js.map": "/fittrack/static/js/main.b6765f3c.js.map",
+    "main.993d6475.js.map": "/fittrack/static/js/main.993d6475.js.map",
     "453.4d04c3e6.chunk.js.map": "/fittrack/static/js/453.4d04c3e6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.504d99f2.css",
-    "static/js/main.b6765f3c.js"
+    "static/js/main.993d6475.js"
   ]
 }
